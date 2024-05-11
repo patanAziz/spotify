@@ -1,0 +1,242 @@
+:root{
+    --a:0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:"popins ","sana-serif";
+}
+.container{
+    display: flex;
+    gap: 2px;
+}
+.left{
+    width: 22vw;
+    /* padding: 2px; */
+}
+.right{
+    border: 2px solid #121212;
+    background-color: #161515;
+    width: 78vw;
+    margin: 7px 0;
+    position: relative;
+    /* padding: 9px; */
+    /* min-height: 60vh; */
+
+}
+.home ul li{
+    display: flex;
+    width: 16px;
+    list-style: none;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: larger;
+}
+/* .home{
+    height: 90px;
+} */
+.imgh1{
+    height: 22px;
+}
+.heading img{
+    height: 28px;
+}
+.heading{
+    gap: 12px;
+    padding-top: 20px;
+    font-size: 13px;
+    padding: 13px 4px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 9px;
+    gap: 5px;
+    position: relative;
+    bottom: -8px;
+    padding-top: 20px;
+}
+.footer a{
+   color: gray;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.nav img{
+    height: 15px;
+}
+.header{
+    padding: 20px;
+    /* background-color: #00000080 */
+}
+.spotify-playlist{
+    padding: 25px;
+    /* border-radius: 7px; */
+    background-color: #161515;
+    /* overflow:scroll; */
+    
+
+}
+.spotify-playlist h1{
+    margin-bottom: 20px;
+
+}
+.card img{
+    width: 100%;
+    /* height: 217px; */
+    border-radius: 7px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+.card{
+    /* flex-wrap: wrap; */
+    /* height: 280px; */
+    width: 200px;
+    padding: 8px;
+    background-color: #252525;
+    border-radius: 5px;
+    position: relative;
+
+}
+.card:hover {
+    background-color: rgb(126, 125, 125);
+    cursor: pointer;
+    transition: all 1.5s;
+    --a:1;
+}
+.cardcontainer{
+    max-height: 70vh;
+    border-radius: 7px;
+    margin: 30px;
+    overflow-y: scroll;
+}
+.buttons button{
+    margin-right: 55px;
+}
+.buttons .btn1{
+    background-color: #121212;
+    color: white;
+    border: none;
+    font-size: larger;
+}
+.buttons .btn{
+    background-color: #f4eeee;
+    color: rgb(13, 13, 13);
+    border: none;
+    height: 30px;
+    font-size: larger;
+    width: 80px;
+    border-radius: 25px;
+}
+.buttons .btn:hover{
+    font-weight: bolder;
+    height: 35px;
+    width: 90px;   
+}
+
+.play img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 17px;
+    bottom: 84px;
+    opacity: var(--a);
+    transition: all .7s;
+}
+.playbar{
+    background-color: rgb(130, 161, 130);
+    width: 67%;
+    position: fixed;
+    bottom: 25px;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 11px;
+    /* justify-content: center; */
+}
+.playlist ul{
+    padding: 0 12px; 
+    position: relative;
+}
+.playlist{
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: -10px;
+}
+.playlist ul li{
+    /* list-style-type: decimal; */
+    /* height: 20px; */
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 9px 0;
+    border: 1px solid white;
+    margin: 6px;
+    padding-left: 0px;
+    padding: 7px;
+    width: 190px;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 13px;
+    
+}
+.seqbar{
+    border: 2px solid rgb(244, 239, 239);
+    width: 96%;
+    position: absolute;
+    bottom: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.circle{
+    position: absolute;
+    bottom: -4.5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: rgb(238, 231, 231);
+    transition: left 0.5s;
+    left: -2px;
+}
+/* .playbar{
+    height: 150px;
+    width: 65%;
+    gap: 10px;
+    font-size: small;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.playbar img{
+    cursor: pointer;
+}
+.playbar div{
+    cursor: pointer;
+}
+.nav{
+    padding-top: 10px;
+}
+.hamberg{
+    display:none;
+}
+.hamberg img{
+    padding-top: 5px;
+   
+}
+.close{
+    display: none;
+}
+.card p{
+    margin-top: 8px;
+}
+
+
+  
+  

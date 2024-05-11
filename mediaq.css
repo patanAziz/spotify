@@ -1,0 +1,216 @@
+@media (max-width: 1024px) {
+    .playlist ul li{
+        width: 138px;
+        border-radius: 4px;
+    }
+}
+@media (max-width: 1262px) {
+    .playlist ul li{
+        width: 158px;
+        border-radius: 4px;
+    }
+}
+@media (max-width: 1125px) {
+    .playlist ul li{
+        width: 145px;
+        border-radius: 4px;
+    }
+}
+@media (max-width: 1054px) {
+    .playlist ul li{
+        width: 125px;
+        border-radius: 4px;
+    }
+}
+@media (max-width: 980px) {
+    .playlist ul li{
+        width: 115px;
+        border-radius: 4px;
+        flex-wrap: wrap;
+    }
+   
+}
+@media (max-width: 919px) {
+    .playlist ul li{
+        width: 100px;
+        border-radius: 4px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 853px) {
+    .playlist ul li{
+        width: 80px;
+        border-radius: 4px;
+        flex-wrap: wrap;
+    }
+}
+  
+@media (max-width: 768px) {
+    .playlist ul li{
+        width: 78px;
+        border-radius: 4px;
+        flex-wrap: wrap;
+    }
+    /* .spotify-playlist{
+        height: 510px;
+    } */
+}
+@media (max-width: 765px) {
+    .left{
+        width: 100%;
+        position: absolute;
+        left: -100%;
+        z-index: 1;
+        width: 95vw;
+        
+    }
+    .close{
+        position: absolute;
+        right: 40px;
+        top: 30px;
+        width: 29px;
+        display: inline;
+    }
+    .playlist ul li{
+        width: 218px;
+        height: 69px;
+        border-radius: 4px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .hamberg{
+        display: inline;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .right{
+        width: 100vw;
+        height: 97vh;
+        margin: 0px;
+    }
+    .playbar{
+        height: 80px;
+        width: 84%;
+    }
+}
+@media (max-width: 716px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 207px;
+        width: 120px;
+    
+    }
+}
+@media (max-width: 706px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 260px;
+        width: 150px;
+    
+    }
+}
+@media (max-width: 656px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 312px;
+        width: 236px;
+    
+    }
+}
+@media (max-width: 642px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 320px;
+        width: 233px;
+    
+    }
+    .playbar .seqbar{
+        width: 83%;
+    }
+    .buttons button{
+        margin: 0px;
+    }
+    .buttons .btn1{
+        padding-right: 30px;
+    }
+
+}
+@media (max-width: 320px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    /* .card{
+        height: 325px;
+        width: 233px;
+    
+    } */
+    .right{
+        width: 100vw;
+    }
+}
+@media (max-width: 320px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .playbar{
+        width: 60vw;
+    }
+    .right{
+        width: 80vw;
+    }
+}
+@media (max-width: 362px) {
+    .cardcontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .playbar{
+        width: 81vw;
+    }
+    
+}
+@media (max-width: 320px) {
+    .right{
+        width: 313px;
+    }
+    .nav{
+        width: 272;
+    }
+    .playbar{
+        margin: -10px;
+    }
+    #previous{
+        padding: 0;
+    }
+    #next{
+        padding: 0;
+    }
+    .playlist ui li{
+        width: 210px;
+    }
+}
+@media (max-width: 313px) {
+    .right{
+        width: 290px;
+    }
+    .nav{
+        width: 260;
+    }
+    
+}
+
